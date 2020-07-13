@@ -12,9 +12,6 @@ import java.util.List;
  * return true if there exist two elements in the BST 
  * such that their sum is equal to the given target
  * 
- * 
- * Make a Node class version, and a array representation version
- * 
  * @author marklapointe
  *
  */
