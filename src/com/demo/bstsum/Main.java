@@ -88,7 +88,7 @@ class Node {
 		return retVal;
 	}
 	
-	public List<Node> getInOrder() {
+	private List<Node> getInOrder() {
 		List<Node> retVal = new ArrayList<Node>();
 		if (this.left!= null) retVal.addAll(this.left.getInOrder());
 		retVal.add(this);
